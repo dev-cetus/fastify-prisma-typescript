@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "lib": ["esnext"],
+    "skipLibCheck": true,
+    "removeComments": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "module": "ES2022",
+    "moduleResolution": "Node",
+    "target": "ES2022",
+    "typeRoots": [
+      "types",
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+  ],
+    "exclude": [
+        "node_modules"
+    ]
+}
